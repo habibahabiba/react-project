@@ -3,19 +3,10 @@ import './App.css';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
-function App() {
-  return (
-    <div className='App'>
-      <h1>Hello this is my first react App 
-        . </h1>
-        <h1>I am learning react</h1>
-        
-        
-    </div>
-  
-  ); 
 
-function BasicExample() {
+
+
+function App() {
   return (
     <Form>
      <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -35,13 +26,15 @@ function BasicExample() {
       </Form.Group>
       <Button variant="primary" type="submit">
         Submit
-      </Button> 
+      </Button>
+      
     </Form>
   );
 }
 
 
-   
-}
-
 export default App;
+
+
+   
+
